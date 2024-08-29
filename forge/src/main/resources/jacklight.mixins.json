@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.themade4.jacklight.fabric.mixin",
+  "package": "net.themade4.jacklight.forge.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "common.blockstate.BlockStateBaseMixin",
