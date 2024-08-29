@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = "https://github.com/TheMade4/Jacklight/issues"
+license = "LGPL-3.0-only"
+
+[[mods]]
+modId = "jacklight"
+version = "${version}"
+displayName = "Jacklight"
+authors = "TheMade4"
+description = "Rewrites the light engine to fix lighting performance and lighting errors"
+logoFile = "logo.png"
+
+[[dependencies.jacklight]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jacklight]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jacklight]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"

@@ -1,0 +1,1 @@
+MixinConnector: net.themade4.jacklight.forge.mixin.MixinConnector
