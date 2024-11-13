@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "net.tm4.jacklight.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "client.multiplayer.ClientPacketListenerMixin",
+    "client.world.ClientLevelMixin"
+  ],
+  "mixins": [
+    "common.blockstate.BlockStateBaseMixin",
+    "common.chunk.ChunkAccessMixin",
+    "common.chunk.EmptyLevelChunkMixin",
+    "common.chunk.ImposterProtoChunkMixin",
+    "common.chunk.LevelChunkMixin",
+    "common.chunk.ProtoChunkMixin",
+    "common.lightengine.LevelLightEngineMixin",
+    "common.lightengine.ThreadedLevelLightEngineMixin",
+    "common.world.ChunkSerializerMixin",
+    "common.world.LevelMixin",
+    "common.world.ServerWorldMixin",
+    "common.world.WorldGenRegionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

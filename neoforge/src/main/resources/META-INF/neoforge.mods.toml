@@ -1,0 +1,41 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "GNU LGPL 3.0"
+
+[[mods]]
+modId = "jacklight"
+version = "${version}"
+displayName = "Jacklight"
+authors = "TheMade4"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.jacklight]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jacklight]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.jacklight]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "jacklight.mixins.json"
+
+[[accessTransformers]]
+file="META-INF/jacklight_at.cfg"
